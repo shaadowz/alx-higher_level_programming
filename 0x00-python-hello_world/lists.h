@@ -1,21 +1,19 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
- * @x: interger
+ * @n: integer
  * @next: points to the next node
  *
- * Description; singly linked list node structure
- * for python project
+ * Description: singly linked list node structure
  */
 
 typedef struct listint_s
 {
-	int x;
-
+	int n;
 	struct listint_s *next;
 } listint_t;
 
